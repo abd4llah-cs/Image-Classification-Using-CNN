@@ -1,4 +1,6 @@
-#
+# ==================================================================================
+# After training the model you don't need to use all code this part will be enough
+# ==================================================================================
 
 import cv2 as cv
 import numpy as np
@@ -30,3 +32,4 @@ plt.title(f'Prediction is : {label}')
 plt.axis('off')
 
 plt.show()
+

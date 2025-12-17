@@ -1,9 +1,10 @@
+#
+
 import cv2 as cv
 import numpy as np
 import matplotlib.pyplot as plt
 from tensorflow.keras import models
 
-# أسماء الفئات (CIFAR-10)
 class_names = [
     'Plane', 'Car', 'Bird', 'Cat', 'Deer',
     'Dog', 'Frog', 'Horse', 'Ship', 'Truck'
@@ -27,4 +28,5 @@ plt.figure(figsize=(4, 4))
 plt.imshow(img_resized)
 plt.title(f'Prediction is : {label}')
 plt.axis('off')
+
 plt.show()
